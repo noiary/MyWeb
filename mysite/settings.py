@@ -25,7 +25,7 @@ SECRET_KEY = 'k_%rjh)9l$97zjw5t0uk6lw^uulzzipnchf9msz4fvc(k@*s&p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','maodq.com']
+ALLOWED_HOSTS = ['localhost', 'maodq.com', 'elsa.ren']
 
 
 # Application definition
