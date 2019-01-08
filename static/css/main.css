@@ -1,7 +1,35 @@
 body {
-  background: #eee;
-  font-family: "Microsoft Yahei","微软雅黑",Arial,Helvetica,STHeiti,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  color:#333;
-  line-height: 1.5;
-  font-size: 16px;
+    background-color: #f6d7e8;
+    font-family: "Microsoft Yahei", "微软雅黑", Arial, Helvetica, STHeiti, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+#header_title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#header_tab {
+    color: white;
+    border-radius: 4px;
+    background-color: #5d1049;
+    line-height: 80px;
+    padding: 0 0 0 20px;
+    height: 80px;
+}
+
+#header_tab a {
+    font-size: 18px;
+    margin: 0 0 150px 20px;
+}
+
+#content {
+    margin: 40px auto 0;
+    width: 85%;
+    padding-top: 110px;
+    min-height: 320px;
+    border-radius: 12px;
+    background-color: white;
 }

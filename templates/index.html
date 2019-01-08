@@ -8,16 +8,28 @@
     <meta name="author" content="Max,Elsa">
     <title>Max & Elsa</title>
 
-    <link href="/static/css/main.css" rel="stylesheet">
+    <link type="text/css" href="../static/css/main.css" rel="stylesheet"/>
+    <script src="../static/js/main.js"></script>
 </head>
 <body>
 <div>
-    <header></header>
+    <header>
+
+    </header>
 </div>
-<div align="center">
-    <H2>Hi, this is Max and Elsa</H2>
-    <H3>This's our first web site ^_^</H3>
-    <H3>to be continued...</H3>
+<div>
+    <div id="header_tab">
+        <strong id="header_title">Max & Elsa</strong>
+        <a onclick="onTabClick()">精选</a>
+        <a onclick="onTabClick()">未来</a>
+        <a onclick="onTabClick()">过去</a>
+        <a onclick="onTabClick()">About</a>
+    </div>
+    <div align="center" id="content">
+        <p>Hi, this is Max and Elsa</p>
+        <p>This's our first web site ^_^</p>
+        <p>to be continued...</p>
+    </div>
 </div>
 </body>
 </html>
